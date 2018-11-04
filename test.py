@@ -32,6 +32,8 @@ board[(4, 7)] = Queen("black")
 board[(3, 0)] = King("white")
 board[(3, 7)] = King("black")
 
+# BOARD SETUP
+
 board_size = 560
 cell_width = board_size / 8
 
