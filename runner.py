@@ -1,39 +1,53 @@
-# run java -jar processing-py.jar test.py
+# java -jar processing-py.jar test.py
+
 from pieces import *
+from board import *
 
-board = {}
-
-for row in range(8):
-  for column in range(8):
-    board[(row, column)] = None
-
-for column in range(8):
-  board[(column, 1)] = Pawn("white")
-  board[(column, 6)] = Pawn("black")
-
-board[(0, 0)] = Rook("white")
-board[(7, 0)] = Rook("white")
-board[(0, 7)] = Rook("black")
-board[(7, 7)] = Rook("black")
+# BOARD SETUP
 
 board_size = 560
 cell_width = board_size / 8
+
+cell_selected = None
+cell_targeted = None
+
+# NEW GAME SETUP
+
+myBoard = ChessBoard()
+
+# PROCESSING
 
 def setup():
   size(board_size, board_size)
 
 def draw():
-  for x, y in board:
+  for x, y in myBoard.board:
     posX = x * cell_width
     posY = y * cell_width
-    if ((x + (y % 2)) % 2) == 0:
+    if (x, y) == myBoard.selected:
+      fill(107, 110, 71)
+    elif ((x + (y % 2)) % 2) == 0:
       fill(237, 218, 185)
     else:
       fill(175, 136, 104)
+    noStroke()
     rect(posX, posY, cell_width, cell_width)
-    if board[(x, y)]:
-      photo = loadImage('pieces/{}.png'.format(board[(x, y)].get_name()))
+    if (x, y) in myBoard.legal_moves:
+      if myBoard.board[(x, y)]:
+        square_image = loadImage('pieces/square.png')
+        image(square_image, posX, posY)
+      else:
+        dot_image = loadImage('pieces/dot.png')
+        image(dot_image, posX + 20, posY + 20)
+    if myBoard.board[(x, y)]:
+      photo = loadImage('pieces/{}.png'.format(myBoard.board[(x, y)].get_name()))
       image(photo, posX + 5, posY + 5)
 
 def mousePressed():
-  print(mouseX / cell_width, mouseY / cell_width)
+  clicked_cell = (mouseX / cell_width, mouseY / cell_width)
+  myBoard.click_handler(clicked_cell)
+
+
+
+
+
