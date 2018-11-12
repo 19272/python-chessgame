@@ -1,4 +1,4 @@
-# java -jar processing-py.jar test.py
+# java -jar processing-py.jar runner.py
 
 from pieces import *
 from board import *
@@ -7,9 +7,6 @@ from board import *
 
 board_size = 560
 cell_width = board_size / 8
-
-cell_selected = None
-cell_targeted = None
 
 # NEW GAME SETUP
 

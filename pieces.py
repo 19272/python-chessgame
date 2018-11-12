@@ -113,6 +113,22 @@ class Bishop(Piece):
 class King(Piece):
   code = 9812
 
+  def find_legal_moves(self, board):
+
+    posX, posY = self.position
+    moves = []
+
+    for x in [-1, 1, 0]:
+      for y in [-1, 1, 0]:
+        if (x, y) == (0, 0):
+          continue
+        if (posX + x, posY + y) in board:
+          if not board[(posX + x, posY + y)]\
+          or board[(posX + x, posY + y)].color != self.color:
+            moves.append((posX + x, posY + y))
+
+    return moves
+
 class Queen(Piece):
   code = 9813
 
