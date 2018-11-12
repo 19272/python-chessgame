@@ -9,9 +9,6 @@ class Piece:
   def get_name(self):
     return "{}-{}".format(self.color, self.__class__.__name__.lower())
 
-  def is_legal(self, target):
-    return True
-
   def destroy(self):
     self.position = None
 
