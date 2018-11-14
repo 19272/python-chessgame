@@ -33,12 +33,16 @@ You'll also need to obtain the standalone version of Processing.py. Choose the a
 * Windows: [64-bit](http://py.processing.org/processing.py-windows64.zip), [32-bit](http://py.processing.org/processing.py-windows32.zip)
 * Linux: [64-bit](http://py.processing.org/processing.py-linux64.tgz) [32-bit](http://py.processing.org/processing.py-linux32.tgz)
 
-These files contain the processing.py **.jar** file along with some example scripts and some utility programs for running Processing.py on its own, for various platforms. Decompress the file and move the **processing-py.jar** file (and only this one) to your python-chessgame directory. Now, from the python-chessgame directory, type the following on the command line:
+These files contain the processing.py **.jar** file along with some example scripts that you will not use. Decompress the file and move the **processing-py.jar** file (and **only** this one) to your **python-chessgame directory**. 
+
+*Note: the **processing-py.jar** file contains all of processing.py along with a little bit of code that reads and executes the Python file specified on the command line.*
+
+Now, from the **python-chessgame directory**, type the following on the command line:
+
+### Start playing
 
 ```
 java -jar processing-py.jar runner.py
 ```
 
-The command above runs the Java interpreter (java), and tells the interpreter to run the code in the given JAR. The **processing-py.jar** file contains all of processing.py along with a little bit of code that reads and executes the Python file specified on the command line.
-
-You should see a window appear with the ChessBoard sketch up and running. Remember, whites play first :wink:
+A window will appear with the board displayed and running. Whites play first :wink:
