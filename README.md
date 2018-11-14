@@ -37,4 +37,4 @@ java -jar processing-py.jar runner.py
 
 The command above runs the Java interpreter (java), and tells the interpreter to run the code in the given JAR. The **processing-py.jar** file contains all of processing.py along with a little bit of code that reads and executes the Python file specified on the command line.
 
-You should see a window appear with the ChessBoard sketch up and running. Remember, whites play first ;)
+You should see a window appear with the ChessBoard sketch up and running. Remember, whites play first :wink:
