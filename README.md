@@ -6,7 +6,7 @@ Python Chess game using [processing.py](https://py.processing.org/).
 
 ## Screenshots
 
-![Screenshot 1](screenshots/sc_01.png)
+![Screenshot 1](screenshots/sc_01.png | width=100)
 
 ## Getting Started
 
@@ -47,4 +47,4 @@ Now, from the **python-chessgame directory**, type the following on the command 
 java -jar processing-py.jar runner.py
 ```
 
-A window will appear with the board displayed and running. Whites play first :wink:
+A window will appear with the board displayed and running. White goes first :wink:
