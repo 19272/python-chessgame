@@ -35,7 +35,7 @@ You'll also need to obtain the standalone version of Processing.py. Choose the a
 
 These files contain the processing.py **.jar** file along with some example scripts that you will not use. Decompress the file and move the **processing-py.jar** file (and **only** this one) to your **python-chessgame directory**. 
 
-*Note: the **processing-py.jar** file contains all of processing.py along with a little bit of code that reads and executes the Python file specified on the command line.*
+*Note: the **processing-py.jar** file contains all of processing.py along with a little bit of code that reads and executes the python file specified on the command line.*
 
 Now, from the **python-chessgame directory**, type the following on the command line:
 
