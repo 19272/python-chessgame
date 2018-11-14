@@ -1,6 +1,6 @@
 # Chess Game
 
-Chess program for Python3 (*Player versus Player*) using [processing.py](https://py.processing.org/).
+Chess program for Python3 (*Player vs. Player*) using [processing.py](https://py.processing.org/).
 
 ## Getting Started
 
