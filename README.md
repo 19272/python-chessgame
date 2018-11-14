@@ -2,6 +2,10 @@
 
 Python Chess game using [processing.py](https://py.processing.org/).
 
+### Features
+
+### Screenshots
+
 ## Getting Started
 
 ### Prerequisites
