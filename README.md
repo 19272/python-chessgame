@@ -47,3 +47,8 @@ A window will appear with the board displayed and running. White goes first :win
 
 ![](screenshots/sc_01.png)
 ![](screenshots/sc_02.png)
+
+## Authors
+
+* **Theo Avoyne** - [theoavoyne](https://github.com/theoavoyne)
+
