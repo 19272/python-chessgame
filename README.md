@@ -6,7 +6,7 @@ Python Chess game using [processing.py](https://py.processing.org/).
 
 ## Screenshots
 
-![Screenshot 1](screenshots/sc_01.png | width=100)
+![Screenshot 1](screenshots/sc_01.png)
 
 ## Getting Started
 
