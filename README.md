@@ -9,7 +9,7 @@ Python Chess game using [processing.py](https://py.processing.org/).
 ```
 Java SE 8
 ```
-
+*test*
 You can download Java JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html). Please note that it won't work on Java 11.0.1. Ensure that you can run Java by typing the following on the command line:
 
 ```
