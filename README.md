@@ -6,7 +6,10 @@ Python Chess game using [processing.py](https://py.processing.org/).
 
 ## Screenshots
 
-![Screenshot 1](screenshots/sc_01.png)
+![](screenshots/sc_01.png)
+![](screenshots/sc_02.png)
+![](screenshots/sc_03.png)
+![](screenshots/sc_04.png)
 
 ## Getting Started
 
