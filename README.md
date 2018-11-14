@@ -23,4 +23,18 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
 ```
 **Processing.py**
 
-You'll also need to obtain the standalone version of Processing.py. To do so, follow [this link](http://processing.org/download) and select the Mac, Windows, or Linux version, depending on what machine you have.
+You'll also need to obtain the standalone version of Processing.py. Choose the appropriate link according to your platform:
+
+* [Mac OS X](http://py.processing.org/processing.py-macosx.tgz)
+* Windows: [64-bit](http://py.processing.org/processing.py-windows64.zip), [32-bit](http://py.processing.org/processing.py-windows32.zip)
+* Linux: [64-bit](http://py.processing.org/processing.py-linux64.tgz) [32-bit](http://py.processing.org/processing.py-linux32.tgz)
+
+These files contain the Processing.py JAR file along with some example scripts and some utility programs for running Processing.py on its own, for various platforms. Decompress the file and move the .jar file to the python-chessgame directory. Now, from the python-chessgame directory, type the following on the command line:
+
+```
+java -jar processing-py.jar runner.py
+```
+
+The command above runs the Java interpreter (java), and tells the interpreter to run the code in the given JAR. The processing-py.jar file contains all of Processing.py along with a little bit of code that reads and executes the Python file specified on the command line.
+
+You should see a window appear with the mouse_follow.py sketch up and running. And remember, whites play first ;)
