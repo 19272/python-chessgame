@@ -7,10 +7,10 @@ Python Chess game using [processing.py](https://py.processing.org/).
 ### Prerequisites
 
 ```
-Python 3.7.0
 Java SE 8
 ```
-Ensure that you can run Java by typing the following on the command line:
+
+You can download Java JDK from [here](https://www.oracle.com/technetwork/java/javase/downloads/index.html). Please note that it won't work on Java 11.0.1. Ensure that you can run Java by typing the following on the command line:
 
 ```
 $ java -v
