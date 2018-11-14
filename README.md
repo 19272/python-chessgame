@@ -1,6 +1,6 @@
 # Chess Game
 
-PVP Python Chess game using [processing.py](https://py.processing.org/).
+*Player versus Player* Python Chess game using [processing.py](https://py.processing.org/).
 
 ## Getting Started
 
