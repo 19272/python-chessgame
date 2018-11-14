@@ -24,4 +24,4 @@ Java(TM) SE Runtime Environment (build 1.8.0_92-b14)
 Java HotSpot(TM) 64-Bit Server VM (build 25.92-b14, mixed mode)
 ```
 
-http://processing.org/download and selecting the Mac, Windows, or Linux version, depending on what machine you have. Installation on each machine is straightforward
+You'll also need to obtain the standalone version of Processing.py. To do so, follow [this link](http://processing.org/download) and select the Mac, Windows, or Linux version, depending on what machine you have.
