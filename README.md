@@ -2,8 +2,6 @@
 
 PVP Python Chess game using [processing.py](https://py.processing.org/).
 
-## Features
-
 ## Getting Started
 
 ### Prerequisites
