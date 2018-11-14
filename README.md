@@ -4,10 +4,6 @@ Python Chess game using [processing.py](https://py.processing.org/).
 
 ## Features
 
-## Screenshots
-
-![Screenshot 1](screenshots/sc_01.png | width=100)
-
 ## Getting Started
 
 ### Prerequisites
@@ -48,3 +44,10 @@ java -jar processing-py.jar runner.py
 ```
 
 A window will appear with the board displayed and running. White goes first :wink:
+
+## Screenshots
+
+![](screenshots/sc_01.png)
+![](screenshots/sc_02.png)
+![](screenshots/sc_03.png)
+![](screenshots/sc_04.png)
